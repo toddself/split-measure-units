@@ -1,6 +1,6 @@
 {
   "name": "@toddself/split-measure-units",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Separate English style measures (1 gal) into their amounts and units, and optionally convert to other units",
   "main": "./dist/split-measure-units.js",
   "jsnext:main": "./src/split-measure-units.js",
