@@ -1,0 +1,38 @@
+{
+  "name": "@toddself/split-measure-unit",
+  "version": "1.0.0",
+  "description": "Separate English style measures (1 gal) into their amounts and units, and optionally convert to other units",
+  "main": "./dist/split-measure-units.js",
+  "jsnext:main": "./src/split-measure-units.js",
+  "scripts": {
+    "test": "npm run build && tap split-measure-units.spec.js",
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/toddself/split-measure-unit.git"
+  },
+  "keywords": [
+    "measure",
+    "convert",
+    "units"
+  ],
+  "author": "Todd Kennedy <todd@selfassembled.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/toddself/split-measure-unit/issues"
+  },
+  "homepage": "https://github.com/toddself/split-measure-unit#readme",
+  "dependencies": {
+    "convert-units": "~0.1.1"
+  },
+  "devDependencies": {
+    "babel": "~6.0.15",
+    "babel-cli": "~6.0.15",
+    "babel-plugin-transform-es2015-block-scoping": "~6.0.14",
+    "babel-plugin-transform-es2015-destructuring": "~6.0.14",
+    "babel-plugin-transform-es2015-modules-commonjs": "~6.0.15",
+    "tap": "~2.2.0"
+  }
+}
