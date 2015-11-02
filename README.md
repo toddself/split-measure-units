@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/toddself/split-measure-units.svg?branch=master)](https://travis-ci.org/toddself/split-measure-units)
+
 # split-measure-units
 
 A small function that will separate out the amount from the units in a normal English measurement phrase, and optionally convert it to a different unit

@@ -1,5 +1,5 @@
 {
-  "name": "@toddself/split-measure-unit",
+  "name": "@toddself/split-measure-units",
   "version": "1.0.0",
   "description": "Separate English style measures (1 gal) into their amounts and units, and optionally convert to other units",
   "main": "./dist/split-measure-units.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/toddself/split-measure-unit.git"
+    "url": "git+ssh://git@github.com/toddself/split-measure-units.git"
   },
   "keywords": [
     "measure",
@@ -21,9 +21,9 @@
   "author": "Todd Kennedy <todd@selfassembled.org>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/toddself/split-measure-unit/issues"
+    "url": "https://github.com/toddself/split-measure-units/issues"
   },
-  "homepage": "https://github.com/toddself/split-measure-unit#readme",
+  "homepage": "https://github.com/toddself/split-measure-units#readme",
   "dependencies": {
     "convert-units": "~0.1.1"
   },
