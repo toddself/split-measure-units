@@ -40,15 +40,15 @@ test('deal with invalid units', function (t) {
 })
 
 test('converts to fahrenheit', function (t) {
-  var results = splitMeasure('50c', 'f')
+  var results = splitMeasure('50C', 'F')
   t.equal(results[0], 122, 'converted to f')
-  t.equal(results[1], 'f', 'got back f')
+  t.equal(results[1], 'F', 'got back f')
   t.end()
 })
 
 test('converts to celsius', function (t) {
-  var results = splitMeasure('100f', 'c')
+  var results = splitMeasure('100F', 'C')
   t.equal(Math.round(results[0]), Math.round(37.7), 'converted')
-  t.equal(results[1], 'c', 'got back c')
+  t.equal(results[1], 'C', 'got back c')
   t.end()
 })
