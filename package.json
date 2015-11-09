@@ -6,7 +6,7 @@
   "jsnext:main": "./src/split-measure-units.js",
   "scripts": {
     "test": "npm run build && tap split-measure-units.spec.js",
-    "build": "babel src -d dist",
+    "build": "if [ -d dist ]; then rm -rf dist; fi && babel src -d dist",
     "prepublish": "npm run build"
   },
   "repository": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/toddself/split-measure-units#readme",
   "dependencies": {
-    "convert-units": "~0.1.1"
+    "convert-units": "~0.4.0"
   },
   "devDependencies": {
     "babel": "~6.0.15",
